@@ -35,7 +35,7 @@ A modern, feature-rich personal task tracker built with React and TypeScript. Or
 
 ## Live Demo
 
-[Link to deployed application - Coming Soon]
+[[Link to deployed application - (https://personaltasktrack.netlify.app/)]]
 
 ## 📸 Screenshots
 
