@@ -1,0 +1,97 @@
+.App {
+  min-height: 100vh;
+  background-color: #f8fafc;
+}
+
+.dark .App {
+  background-color: #0d1117;
+}
+
+.app-header {
+  background: white;
+  padding: 2rem 0;
+  box-shadow: var(--shadow);
+  margin-bottom: 2rem;
+}
+
+.dark .app-header {
+  background: #00000080;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  margin: 0 2rem;
+}
+
+.app-header h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+}
+
+.welcome-text {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  margin: 0;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.stats {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 0 2rem;
+}
+
+.stat {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  background: var(--secondary-color);
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-weight: 500;
+}
+
+.app-main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.sidebar {
+  position: sticky;
+  top: 2rem;
+}
+
+.dark .sidebar {
+  background-color: #111827;
+}
+
+.content {
+  min-height: 500px;
+}
+
+@media (max-width: 768px) {
+  .app-main {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .sidebar {
+    position: static;
+  }
+  
+  .app-header h1 {
+    font-size: 1.875rem;
+  }
+} 
