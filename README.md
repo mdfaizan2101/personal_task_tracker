@@ -37,15 +37,26 @@ A modern, feature-rich personal task tracker built with React and TypeScript. Or
 
 [Link to deployed application - Coming Soon]
 
-## Screenshots
+## 📸 Screenshots
 
-### Light Mode
-![Light Mode Dashboard](screenshots/light-mode.png)
+### 🔆 Light Mode Dashboard
 
-### Dark Mode  
-![Dark Mode Dashboard](screenshots/dark-mode.png)
+#### 🖼️ Screenshot 1
+![Light Mode 1](./assets/screenshots/light-mode-dashboard-1.png)
 
-*Note: Screenshots will be added once the app is deployed or screenshots are captured*
+#### 🖼️ Screenshot 2
+![Light Mode 2](./assets/screenshots/light-mode-dashboard-2.png)
+
+---
+
+### 🌙 Dark Mode Dashboard
+
+#### 🖼️ Screenshot 1
+![Dark Mode 1](./assets/screenshots/dark-mode-dashboard-1.png)
+
+#### 🖼️ Screenshot 2
+![Dark Mode 2](./assets/screenshots/dark-mode-dashboard-2.png)
+
 
 ## Key Features Overview
 
